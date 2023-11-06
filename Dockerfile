@@ -9,4 +9,4 @@ WORKDIR  /code
 EXPOSE 8000
 
 ENTRYPOINT [ "python", "personal_portfolio/manage.py" ]
-CMD [ "renserver", "0.0.0.0:8000" ]
+CMD [ "runserver", "0.0.0.0:8000" ]
